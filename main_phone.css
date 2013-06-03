@@ -1,0 +1,181 @@
+body {
+	background-color: #434242;
+}
+
+#global_container_outer {
+	width: 100%;
+	min-height: 600px;
+	margin: 0 auto;
+}
+#global_container {
+	width: 98%;
+	min-height: 600px;
+	margin: 0 1%;
+	font-family: 'Roboto', sans-serif;
+}
+#topnav li {
+	float: left;
+	margin: 0 20px;
+}
+#topnav li:first-child {
+	margin-left: 0;
+}
+
+#topnav li a {
+	color: #e5e5e5;
+	text-decoration: none;
+	size: 36px;
+	font-weight: bold;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+
+#topnav li a:hover {
+
+	color: #fc0;
+}
+.currenttopnav {
+	color: #fc0 !important;
+}
+
+header {
+	width: 100%;
+	height: 70px;
+	border-bottom: solid 2px #a9a8aa;
+	
+}
+header h1 {
+	margin-top: 20px;
+}
+nav {
+
+	height: 40px;
+}
+#maincontent {
+
+	background-color: #ededed;
+	min-height: 600px;
+	opacity: 0.8;
+	border-top: solid 1px #ededed;
+}
+
+#map_toxin{
+	
+width:100%;
+height:600px;
+}
+footer {
+	margin-top: 20px;
+	height: 20px;
+	line-height: 20px;
+	border-top: solid 2px #a9a8aa;
+	color: #ededed;
+	clear: both;
+	width:100%;
+}
+
+#map-canvas {
+	width: 720px;
+	height: 600px;
+}
+
+#getinvolved_container, #resources_container {
+	margin: 20px;
+}
+
+#getinvolved_container p {
+
+}
+
+.input_wrapper {
+	margin-top: 0px;
+}
+.mbpform_inputlable {
+	width: 120px;
+	float: left;
+	font-weight: bold;
+}
+#send {
+	width: 160px;
+	height: 40px;
+	color: #ffffff;
+	font-size: 24px;
+	line-height: 38px;
+	font-weight: bold;
+	border: solid 1px #ccc;
+	background-color: #00cc00;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#00cc00), to(#048304)); /* Chrome, Safari 4+ */
+	background-image: -webkit-linear-gradient(top, #00cc00, #048304); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+	background-image: -moz-linear-gradient(top, #00cc00, #048304); /* Firefox 3.6-15 */
+	background-image: -o-linear-gradient(top, #00cc00, #048304); /* Opera 11.10-12.00 */
+	background-image: linear-gradient(to bottom, #00cc00, #048304); /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#send:hover {
+	background-color: #36ee36;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#36ee36), to(#30ad30)); /* Chrome, Safari 4+ */
+	background-image: -webkit-linear-gradient(top, #36ee36, #30ad30); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+	background-image: -moz-linear-gradient(top, #36ee36, #30ad30); /* Firefox 3.6-15 */
+	background-image: -o-linear-gradient(top, #36ee36, #30ad30); /* Opera 11.10-12.00 */
+	background-image: linear-gradient(to bottom, #36ee36, #30ad30); /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+}
+
+#getinvolved_container h2, #resources_container h2 {
+	font-size: 24px;
+	color: #141414;
+}
+.left_maincolumn {
+
+	width: 640px;
+	min-height: 600px;
+	float: left;
+}
+.right_promocolumn {
+	float: left;
+	width: 240px;
+	margin-left: 40px;
+}
+
+.clearfix {
+	clear: both;
+	line-height: 1;
+	width: 100%;
+}
+
+#global_container {
+	width: 98%;
+	min-height: 600px;
+	margin: 0 1%;
+	font-family: 'Roboto', sans-serif;
+}
+.ss_topmenu{
+	color:#fc0;
+	height:35px;
+	background-color:#000;
+   display:block;
+   line-height:35px;
+   padding-left:20px;
+   position:relative;
+}
+#topnav {
+display:none;
+background-color:#000;
+position:absolute;
+	z-index:100;
+	top:125px;
+}
+
+#topnav li {
+	float: none;
+	width:100%;
+	margin: 0 20px;
+	background-color:#000;
+	border-bottom:solid 1px #ccc;
+
+}
+#topnav li:first-child {
+	margin-left: 20px;
+}
